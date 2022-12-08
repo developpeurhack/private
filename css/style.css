@@ -1,0 +1,409 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    background: rgb(180, 183, 185);
+   
+}
+ /* -------- header -----------------------*/
+header{
+    width:100%;
+    margin:0px auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    box-shadow: 2px 5px 10px white;
+    text-transform: uppercase;
+    background: rgb(136, 140, 145);
+}
+
+.navbar{
+    width:80%;
+    margin:0px auto;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo{
+    width:120px;
+    height:100px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 40px;
+}
+
+ .navbar nav{
+     
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+.navbar nav a {
+   padding-right: 20px;
+   margin-right: 10px;
+   text-decoration: none;
+   font-size: 1.2rem;
+   color: black;
+   padding:10px;
+   background: transparent;
+   border:  2px solid rgb(4, 9, 39);
+   border-radius: 20px;
+}
+.navbar nav a:hover{
+    color:rgb(236, 225, 225);
+    border-radius: 20px;
+    background-color: rgb(51, 50, 49);
+
+}
+
+.navbar .logo:hover{
+  
+    transform: rotate(10deg);
+    box-shadow: 0 0 15px 0;
+    border-radius: 45%;
+   
+}
+/* ------------------ main  ----------------------*/
+.section{
+    width:100%;
+    margin:0 auto;
+
+}
+.section .col{
+    width:80%;
+    margin: 0px auto;
+    padding-top: 100px;
+}
+.col h1{
+    font-size: 2em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.ligne{
+    height: 15px;
+}
+h1, h2, h3{
+    font-size: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+h3{
+    text-align: center;
+    border-bottom: 2px solid gray;
+}
+/*
+.row{
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+ }
+ */
+ .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+ }
+
+.row .hop{
+    width: 24%;
+    background-color: rgb(181, 186, 190);
+    padding: 5px;
+    box-shadow: 0px 0px 10px 5px white;
+    border-radius: 5%;  
+    
+}
+
+.row .hop:hover{
+    
+    background-color: rgb(181, 186, 190);
+    padding: 5px;
+    box-shadow: 0px 0px 10px 5px rgb(27, 26, 26);
+    border-radius: 5%; 
+   
+}
+
+.row .hop img{
+    border-radius: 5%;
+    width:100%;
+    height:220px;
+    padding: 5px;
+}
+
+.hop h3 a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    cursor:pointer;
+    background:transparent;
+    border:2px solid rgb(232, 232, 240);
+    border-radius: 20px;
+    padding: 10px;
+   
+}
+
+.video{
+    width:80%;
+    margin:0 auto;
+    padding-top: 25px;
+    
+}
+
+ .video .demo{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;  }
+.video p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+.video h3{
+    text-align: start;
+    border:none;
+
+}
+.video_go p{
+    text-align:center;
+}
+
+.carte {
+    width:80%;
+    margin:0px auto;
+    border: 5px solid rgb(218, 213, 213);
+    box-shadow: 0px 0px 5px 5px white;
+  
+   
+   
+}
+.carte iframe{
+    width:100%;
+    height: 450px;
+    border: 0px;
+}
+h3{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-align: center;
+    border: none;
+    font-size: 1em;
+}
+
+/* ------------footer des pages ---------- */
+
+.myfeet{
+    width:100%;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 5px 5px 10px 5px white;
+    margin-top: 180px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+.myfeet .log{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom:5px;
+
+}
+.myfeet p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: inherit;
+}
+
+/* ---------------formulaire de contact----------- */
+.contact{
+    text-align: center;
+    font-size: 1.5em;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.form{
+    width:80%;
+    margin: 0 auto;
+    border: 2px solid grey;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px white;
+    text-align: center;
+    font-size: 1em;
+    padding: 20px;
+ 
+}
+
+
+.form input{
+    width:100%;
+    border:1px solid grey;
+    padding:10px;
+    border-radius: 10px;
+}
+.form input[type="text"]{
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.form input[type="email"]{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+textarea[name="message"]{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width:100%;
+    border-radius: 10px;
+    border: 2px 5px 5px ;
+    height: 250px;
+    resize: none;
+    /* overflow: hidden; */
+   
+}
+.form .btn{
+    
+    text-align: center; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+     
+}
+.btn button{
+    padding: 15px;
+    font-size: 1em;
+    border-radius: 10px;
+    border: 1px solid grey;
+    box-shadow: 1px 3px 3px rgb(236, 229, 229) ;
+    width: 100%;
+    background: rgb(235, 227, 227);
+      
+}
+
+/* ---------formulaire de connexion----------------*/
+.pass{
+    width:100%;
+    height:500px;
+      
+}
+
+.connex{
+    text-align: center;
+    font-size: 2em;
+    padding-top: 40px;
+}
+
+.form input[type="password"]{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.form input[type="email"]{ 
+    margin-top: 15px;
+    margin-bottom: 15px;
+   
+}
+/* -----------------form inscription ----------------------*/
+.form input[type="tel"]{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+.form input[type="mdp"]{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+/* --------partie responsive : media queries -------------*/
+
+/*-----------------  desktop  -----------------------------*/
+@media(max-width: 1200px){
+   
+	main{
+		width: 100%;
+		margin: 0;
+		box-sizing: border-box;
+	}
+}
+/* --------------------  tablette  --------------------------*/
+
+@media (max-width: 992px) {  
+    .logo{
+        margin-right: 40px;
+    }
+    
+    .navbar nav a{
+    margin-top: 5px;
+}
+.row{
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+ }
+
+}
+
+ /* --------------------------- phone --------------- */
+@media (max-width: 576px) { 
+
+.navbar nav{
+display: flex;
+flex-direction: column;
+align-items: start;
+justify-content: space-between;
+
+}
+.navbar nav a{
+    margin-top: 6px;
+}
+
+.navbar, nav, .logo {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.row{
+   
+    display: flex;
+    flex-flow:column wrap;
+    align-items: center;
+    width:100%;
+    }
+.row .hop{
+
+    width: 80%;
+    background-color: rgb(181, 186, 190);
+    padding: 5px;
+    box-shadow: 0px 0px 10px 5px white;
+    border-radius: 5%;
+    margin-top: 20px;
+}
+ 
+   .video .demo{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+     align-items: center;
+   
+     }
+    
+ }

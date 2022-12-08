@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inscription</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        <header>
+            <div class="navbar">
+                <a href="#"> <img src="images/detective-g6ec3fe34a_640.png" alt="logo" class="logo"></a>
+                <nav>
+                    <a href="index.html"> Accueil</a>
+                    <a href="connexion.html"> Connexion</a>
+                    <a href="contact.html"> Contact</a>
+                </nav>
+            </div>
+    </header>
+    <main>
+        <div class="pass">
+        <p class="connex">
+            <span>Espace d'inscription: </span>
+        </p>
+        <!---------formulaire-------------------->
+            <form action="trt.php" class="form inscription">
+                <div>
+                    <label for="tel">Entrez votre numéro de tel</label>
+                    <input type="tel" id="tel" placeholder="Entrez votre numero de telephone format : xxxxxxxxxx " 
+                    pattern="^(\\+33|0|0033)[1-9][0-9]{8}$"  required>
+                </div>
+                <div>
+                    <label for="email">Entrez votre e-mail</label>
+                    <input type="email" id="email" placeholder="Entrez votre e-mail" pattern="[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+.[a-zA-Z.]{2,15}" required>
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="entrez votre mot de passe" pattern= "^(?=.*[0-9])+(?=.*[az])+(?=.*[AZ]){8,16}$" required>
+                </div>
+                <div>
+                    <label for="mdp">Confirmez votre mot de passe</label>
+                    <input type="password" id="mdp" placeholder="confirmez votre mot de passe" required>
+                </div>
+                <div class="btn">
+                <button><strong>Inscription</strong></button>
+                </div>
+            </form>
+
+        </div>
+        
+    </main>
+
+       <footer>
+        <div class="myfeet">
+            <div class="log">
+                <a href="#" target="_blank"><img src="images/detective-g6ec3fe34a_640.png"  width="80px" height="80px" alt=""></a>
+
+            </div>
+            <p class="foot">
+                <small>
+                     Travail privé <b>date </b>de production &copy;<date>2022</date>
+                     Il est interdit <b>de le modifier</b> - <b>de le diffuser</b>, y compris <b>sur le web</b> - <b>de se l'attribuer</b> - ou <b>de l'utiliser à des fins commerciales et autres</b>.<br> 
+                    Les autorisations au-delà du champ de cette licence peuvent être obtenues auprès de <strong> l'auteur .</strong>
+                </small>
+            </p>
+        </div>
+    </footer>
+    
+</body>
+</html>

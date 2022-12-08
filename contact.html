@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        <header>  
+            <div class="navbar">
+                <a href="#"> <img src="images/detective-g6ec3fe34a_640.png" alt="logo"  class="logo"></a>
+                <nav>
+                    <a href="index.html"> Accueil</a>
+                    <a href="inscription.html"> Inscription</a>
+                    <a href="connexion.html"> Connexion</a>
+                </nav>
+            </div>
+    </header>
+    <main>
+        <h1 class="contact">
+            contactez - nous
+        </h1>
+        <!---------formulaire------------------->  
+        <form action="trt.php" method="post" name="form" class="form">
+            <div>
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" placeholder="votre nom" required>
+            </div>
+            <div>
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" placeholder="votre prénom" required>
+            </div>
+            <div>
+                <label for="email">E-mail :</label>
+                <input type="email" id="email" placeholder="votre e-mail"  pattern="[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+.[a-zA-Z.]{2,15}" required>
+            </div>
+            <div>
+                <label for="message">Message :</label>
+                <textarea name="message" id="message" cols="40" rows="20"></textarea>
+            </div>
+            <div class="btn">
+                <button>Envoyez</button>
+            </div>
+        </form> 
+    </main>
+    <footer>
+        <div class="myfeet">
+            <div class="log">
+                <a href="#" target="_blank"><img src="images/detective-g6ec3fe34a_640.png"  width="80px" height="80px" alt=""></a>
+            </div>
+            <p class="foot">
+                <small>
+                     Travail privé <b>date </b>de production &copy;<date>2022</date>
+                     Il est interdit <b>de le modifier</b> - <b>de le diffuser</b>, y compris <b>sur le web</b> - <b>de se l'attribuer</b> - ou <b>de l'utiliser à des fins commerciales et autres</b>.<br> 
+                    Les autorisations au-delà du champ de cette licence peuvent être obtenues auprès de <strong> l'auteur .</strong>
+                </small>
+            </p>
+        </div>
+    </footer>
+
+
+    
+</body>
+</html>
